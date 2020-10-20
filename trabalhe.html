@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalhe conosco | Meta Automação</title>
+  <meta name="description"
+    content="Trabalhamos com sensores Indutivos, Capacitivos, Segurança, Magnéticos e etc. Automação: Inversores, PLC e IHM. Pneumática: Cilindros, Válvulas e etc.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Meta Automação">
+  <meta property="og:description" content="Preencha o formulário e junte-se ao nosso time de experts em automação.">
+  <meta property="og:url" content="http://www.metaautomacao.com.br">
+  <meta property="og:image" content="http://www.metaautomacao.com.br/imgs/og-image.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootsnav.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/gallery.theme.css" rel="stylesheet">
+  <link href="css/gallery.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/trabalhe.css" rel="stylesheet">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/bootsnav.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html">
+        <img src="imgs/meta1.png" alt="Meta Automação">
+      </a>
+      <nav class="navbar navbar-default navbar-mobile bootsnav on">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+            <li><a href="sobre.html" data-hover="Contact">Sobre<span data-hover="Contact"></span></a></li>
+
+            <li class="dropdown megamenu-fw">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="Megamenu">Produtos<span
+                  data-hover="Megamenu"></span></a>
+              <ul class="dropdown-menu megamenu-content animated" role="menu">
+                <li>
+                  <div class="row">
+                    <div class="col-menu col-md-4">
+                      <h6 class="title">Sensores</h6>
+                      <div class="content">
+                        <ul class="menu-col">
+                          <li><a href="sensores-indutivos.html">Sensores Indutivos</a></li>
+                          <li><a href="#">Sensores Capacitivos</a></li>
+                          <li><a href="#">Sensores Fotoelétricos</a></li>
+                          <li><a href="#">Sensores de Fibra Óptica</a></li>
+                          <li><a href="#">Sensores de Distância</a></li>
+                          <li><a href="#">Sensores de Visão</a></li>
+                        </ul>
+                      </div>
+                    </div><!-- end col-3 -->
+                    <div class="col-menu col-md-4">
+                      <h6 class="title">Válvulas</h6>
+                      <div class="content">
+                        <ul class="menu-col">
+                          <li><a href="#">Válvula Solenóide</a></li>
+                          <li><a href="#">Válvula Diafragma</a></li>
+                          <li><a href="#">Válvula Globo</a></li>
+                        </ul>
+                      </div>
+                    </div><!-- end col-3 -->
+                    <div class="col-menu col-md-4">
+                      <h6 class="title">Diversos</h6>
+                      <div class="content">
+                        <ul class="menu-col">
+                          <li><a href="#">CLP's</a></li>
+                          <li><a href="#">IHM's</a></li>
+                          <li><a href="#">Inversores</a></li>
+                          <li><a href="#">Servomotores</a></li>
+                          <li><a href="#">Cilindros</a></li>
+                          <li><a href="#">Reguladores e conexões</a></li>
+                          <li><a href="#">Geradores de vácuo</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div><!-- end row -->
+                </li>
+              </ul>
+            </li>
+            <li><a href="contato.html" data-hover="Contact">Contato<span data-hover="Contact"></span></a></li>
+
+            <li class="active"><a href="trabalhe.html" data-hover="Contact">Trabalhe conosco<span
+                  data-hover="Contact"></span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="bg-trabalhe">
+    <section class="introducao interna_trabalhe">
+      <div class="container">
+        <h1 data-anime="400" class="fadeInDown">Junte-se ao nosso time</h1>
+      </div>
+    </section>
+
+    <section class="form-trabalhe container fadeInDown" data-anime="1200">
+      <form id="form_trabalhe" method="POST" action="./enviar.php" class="trabalhe_form grid-1-2 formphp">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" name="cidade" required>
+        <label for="profissao">Profissão</label>
+        <input type="text" id="profissao" name="profissao" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" name="telefone" required>
+        <label for="mensagem">Mensagem</label>
+        <textarea style="resize:none" id="mensagem" name="mensagem" required></textarea>
+        <label for="anexar">Anexe seu currículo</label>
+        <input type="file" id="anexar" name="anexar" required>
+        <button id="enviar" name="enviar" type="submit" class="btn btn-preto">Enviar</button>
+      </form>
+    </section>
+  </div>
+
+
+
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+
+        <div class="grid-8 footer_historia">
+          <h3>Empresa</h3>
+          <p>A Meta Automação está situada em Sorocaba, próxima às principais vias de acesso, facilitando o
+            atendimento
+            a clientes e fornecedores. Faça-nos uma visita.</p>
+        </div>
+
+        <div class="grid-4 footer_contato">
+          <h3>Contato</h3>
+          <ul>
+            <li>15 3414.9900</li>
+            <li>Av. Roque Gabriel, 1005 - Jardim Morumbi III</li>
+            <li>Sorocaba, SP - Cep: 18085-645</li>
+            <li>E-mail: meta@metaautomacao.com.br</li>
+          </ul>
+        </div>
+
+        <div class="grid-4 footer_redes">
+          <h3>Redes Sociais</h3>
+          <ul>
+            <li><a href="https://www.facebook.com/pages/Meta%20Automacao/314012795309288/" target="_blank"><img
+                  src="imgs/facebook.png" alt=" Facebook Meta Automação"></a>
+            </li>
+            <li><a href="https://www.instagram.com/meta_automacao/" target="_blank"><img src="imgs/instagram.png"
+                  alt="Instagram Meta Automação"></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">© 2020 Meta Automação Ind., Com. e Serviços Ltda. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-form.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
